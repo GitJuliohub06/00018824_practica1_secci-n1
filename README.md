@@ -8,7 +8,7 @@ Las etiquetas <meta> generalmente no producen cambios visibles en la página web
 
 ### Ejercicio 3, pregunta 9: ¿Qué pasaría si la imagen esta guardada en la misma carpeta de la página web? ¿Y si está en una carpeta superior?
 
-Si la imagen está guardada en la misma carpeta de la página web se tendría que cambiar la linea "<img src="imagenes/imagen.jpg" alt="Imagen">" a "<img src="imagen.jpg" alt="Imagen">" ya que src hace referencia a un recurso dentro de la carpeta en la que se está trabajando, por lo que si el archivo está directamente en la misma carpeta solo se coloca el nombre del archivo, mientras que para adentrarse a carpetas dentro de carpetas se colocan las plecas, por ejemplo src=imagenes/UCALogos/BlancoNegro/logoUCA.jpg, mientras que, si está guardada en una carpeta superior se escribiría algo así: <img src="../imagen.jpg" alt="Imagen"> "../" significa subir de nivel en la estructura de carpetas.
+Si la imagen está guardada en la misma carpeta de la página web se tendría que cambiar la linea "<img src="imagenes/imagen.jpg" alt="Imagen">" a /*"<img src="imagen.jpg" alt="Imagen">"*/ ya que src hace referencia a un recurso dentro de la carpeta en la que se está trabajando, por lo que si el archivo está directamente en la misma carpeta solo se coloca el nombre del archivo, mientras que para adentrarse a carpetas dentro de carpetas se colocan las plecas, por ejemplo src=imagenes/UCALogos/BlancoNegro/logoUCA.jpg, mientras que, si está guardada en una carpeta superior se escribiría algo así: <img src="../imagen.jpg" alt="Imagen"> "../" significa subir de nivel en la estructura de carpetas.
 
 ### Ejercicio 3, pregunta 10: ¿Cómo se consigue que el último enlace se abra en una nueva ventana?
 
